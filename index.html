@@ -11,12 +11,43 @@
     <div class="page-container">
       <div class="page-left">
         <img class="blue-stairs" src="./lena-polishko-blue-stairs.jpg" alt="stairs">
+        <p>image by <a href="#">Lena Polishko</a></p>
       </div>
       <div class="page-right">
         <p>Sign up here to lose money.</p>
         <p>A <strong>LOT</strong> of money.</p>
-        <form action="">
-        </form>
+        <div class="form-container">
+          <form class="form-create-account" action="">
+            <ul>
+              <li>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" name="first-name">
+              </li>
+              <li>
+                <label for="last-name">LAST NAME</label>
+                <input type="text" name="last-name">
+              </li>
+              <li>
+                <label for="email">EMAIL</label>
+                <input type="email" name="email">
+              </li>
+              <li>
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="tel" name="phone-number">
+              </li>
+              <li>
+                <label for="pass">PASSWORD</label>
+                <input type="password" name="pass">
+              </li>
+              <li>
+                <label for="confirm-pass">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm-pass">
+              </li>
+            </ul>
+          </form>
+        </div>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <span>Log in</span></p>
       </div>
     </div>
   </body>
