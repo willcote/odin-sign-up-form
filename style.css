@@ -2,6 +2,14 @@
 
 :root {
   --text-color: #111;
+  --right-padding: 2rem;
+}
+
+p,
+ul,
+li {
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -21,10 +29,6 @@ body {
 
 li {
   list-style: none;
-}
-
-label {
-  font-size: 0.5rem;
 }
 
 .page-container {
@@ -56,6 +60,12 @@ label {
   margin: 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.pitch {
+  padding-left: var(--right-padding);
+  margin-bottom: 1.25rem;
 }
 
 .logo-bar {
@@ -74,6 +84,7 @@ label {
 
 .company-name {
   padding: 0;
+  padding-right: var(--right-padding);
   margin: 0;
   font-family: "Bungee Shade", cursive;
   font-size: 2.5rem;
@@ -97,7 +108,8 @@ a {
 }
 
 .form-title {
-  padding: 1rem;
+  padding: 1rem var(--right-padding) 0 var(--right-padding);
+  margin: 0;
 }
 
 .form-list {
@@ -111,10 +123,39 @@ a {
 
 .form-list li {
   position: relative;
-  padding: 0.5rem;
+  padding: 1rem var(--right-padding);
 }
 
 .form-list label {
+  color: var(--text-color);
   position: absolute;
-  top: 0rem;
+  top: 0.4rem;
+  font-size: 0.625rem;
+}
+
+input {
+  border: solid 0.5px #e5e7eb;
+  border-radius: 3px;
+}
+
+.create-account-button {
+  color: white;
+
+  background-color: rgb(74, 130, 235);
+  margin-top: 1.25rem;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.right-bottom {
+  padding-left: var(--right-padding);
+}
+
+.right-bottom a {
+  color: var(--text-color);
+}
+
+.right-bottom p {
+  margin-top: 1rem;
 }
