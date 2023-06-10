@@ -138,6 +138,11 @@ input {
   border-radius: 3px;
 }
 
+input:focus {
+  border-color: blue;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
 .create-account-button {
   color: white;
 
