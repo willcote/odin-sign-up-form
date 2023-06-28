@@ -129,6 +129,8 @@ form label {
 }
 
 form input {
+  box-sizing: border-box;
+
   font-size: 1rem;
   width: 15rem;
   padding: 0.25rem;
@@ -136,6 +138,15 @@ form input {
   border: solid 0.5px rgba(0, 0, 0, 0.18);
   border-radius: 5px;
 }
+
+input:focus {
+  border: blue solid;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.24);
+}
+
+/* input[type="password"] {
+
+} */
 
 /* targets the first child of .input-row with a class .input-data */
 .input-row .input-data:first-child {
