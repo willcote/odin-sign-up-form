@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="./index.js" defer></script>
+    <script src="./script.js" defer></script>
     <title>Sign Up!</title>
   </head>
   <body>
@@ -52,16 +52,17 @@
         <div class="input-row row-3">
           <div class="input-data">
             <label for="password">Password</label>
-            <input type="password" name="password">
+            <input type="password" id="password" name="password">
           </div>
           <div class="input-data">
             <label for="confirmPassword">Confirm Password</label>
-            <input type="password" name="confirmPassword">
+            <input type="password" id="confirmPassword" name="confirmPassword">
           </div>
         </div>
+        <p class="password-error-text" style="visibility: hidden;">* passwords do not match</p>
       </form>
 
-      <button type="submit" onclick="alert('hi')">Create Account</button>
+      <button type="submit">Create Account</button>
       <p class="create-account-text">Already have an account? <a id="login-link" href="#">Log in</a></p>
     </div>
   </body>

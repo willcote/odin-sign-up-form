@@ -144,9 +144,16 @@ input:focus {
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.24);
 }
 
-/* input[type="password"] {
+input[type="password"].error {
+  border-color: red;
+}
 
-} */
+.password-error-text {
+  position: absolute;
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: red;
+}
 
 /* targets the first child of .input-row with a class .input-data */
 .input-row .input-data:first-child {
