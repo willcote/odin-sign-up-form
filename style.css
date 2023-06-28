@@ -158,7 +158,7 @@ button {
   border: none;
   border-radius: 5px;
   background-color: var(--secondary-color);
-  color: var(--main-text);
+  color: var(--background-color);
 }
 
 .create-account-text {
