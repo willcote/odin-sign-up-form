@@ -1,3 +1,17 @@
+:root {
+  --main-text: #141415;
+  --background-color: #efefef;
+  --secondary-color: rgb(71, 151, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--main-color);
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   position: absolute;
   width: 100%;
@@ -8,7 +22,40 @@ body {
   justify-content: center;
 }
 
-.left,
+.left {
+  position: relative;
+  flex: 2;
+  background-image: url(./images/lena-polishko-blue-stairs.jpg);
+}
 .right {
-  flex: 1;
+  flex: 3;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-stripe {
+  height: 15%;
+  position: relative;
+  top: 25%;
+  background-color: black;
+  opacity: 25%;
+}
+
+.photo-credits-wrapper {
+  color: var(--background-color);
+  font-size: 1rem;
+
+  position: absolute;
+  width: 100%;
+  bottom: 0.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-credits {
+  text-align: center;
 }
