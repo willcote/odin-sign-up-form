@@ -128,6 +128,10 @@ form label {
   top: -1rem;
 }
 
+input:focus {
+  outline-offset: 0;
+}
+
 form input {
   box-sizing: border-box;
 
@@ -140,7 +144,8 @@ form input {
 }
 
 input:focus {
-  border: blue solid;
+  outline: none;
+  border-color: blue;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.24);
 }
 

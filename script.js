@@ -34,7 +34,7 @@ function removeErrorClass(...elements) {
   for (const e of elements) {
     if (e.classList.contains("error")) {
       e.classList.remove("error");
-      console.log(e.classList.contains("error"));
+      // console.log(e.classList.contains("error"));
     }
   }
 }
