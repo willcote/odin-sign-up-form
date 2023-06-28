@@ -10,6 +10,7 @@
 a,
 a:visited {
   text-decoration: none;
+  color: var(--background-color);
 }
 
 * {
@@ -88,6 +89,7 @@ body {
 
 .photo-credits {
   text-align: center;
+  color: var(--background-color);
 }
 
 .credit-link {
