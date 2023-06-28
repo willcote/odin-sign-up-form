@@ -97,10 +97,20 @@ body {
 }
 
 form {
-  margin-left: var(--main-spacing);
+  margin-top: var(--main-spacing);
   width: 100%;
   background-color: var(--background-color);
-  box-shadow: #141415;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+
+  padding: var(--main-spacing);
+}
+
+.form-heading {
+  margin-bottom: var(--main-spacing);
+}
+
+.input-row {
+  display: flex;
 }
 
 button {
