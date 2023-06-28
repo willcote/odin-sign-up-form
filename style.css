@@ -68,7 +68,7 @@ body {
 }
 
 .company-name {
-  color: var(--secondary-color);
+  color: var(--background-color);
   font-family: "Kablammo";
   font-size: 4rem;
   margin-left: var(--main-spacing);
