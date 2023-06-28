@@ -93,7 +93,7 @@ body {
 
 /* right */
 .ad-text {
-  margin-left: var(--main-spacing);
+  margin: 0 var(--main-spacing);
 }
 
 form {
